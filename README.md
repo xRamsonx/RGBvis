@@ -10,8 +10,10 @@ pip install --upgrade git+https://github.com/xRamsonx/RGBvis.git
 
 ## Example
 
-from rgbvis import Sequence
+
 ```python
+from rgbvis import Sequence
+
 s = Sequence()
 #type, duration, endvalue, rgbs="rgb", intensity=1.0
 s.add("rising", 10, 1, "rg")
